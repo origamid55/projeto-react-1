@@ -1,6 +1,6 @@
-import { ReactNode, MouseEvent } from 'react';
+// Adicionamos o "type" bem aqui:
+import type { ReactNode, MouseEvent } from 'react';
 
-// Definimos os tipos exatos para o children e para o onClick
 interface BotaoProps {
   children: ReactNode;
   onClick: (event: MouseEvent<HTMLButtonElement>) => void; 
