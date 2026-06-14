@@ -6,8 +6,8 @@ function App() {
   const [cor, setCor] = useState('blue');
   const [texto, setTexto] = useState('Valor inicial');
   const [lista, setLista] = useState(['Maçã', 'Banana']);
-  const [contador, setContador] = useState(0);
-  const [palavras, setPalavras] = useState(1);
+  const [contador, setContador] = useState(1);
+  const [palavras, setPalavras] = useState(-1);
 
   useEffect (() => {
     setContador(prev => prev + 1);
