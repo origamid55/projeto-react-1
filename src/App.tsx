@@ -39,15 +39,15 @@ function App() {
                   <Botao onClick={() => setCor('blue')}>Deixar azul</Botao>
               </div>
               <input value={texto==='Valor inicial' ? '' : texto} onChange={(e) => setTexto(e.target.value) } placeholder=' Escreva para mudar a div'></input>  
-              <f> 
+              <div className='f'> 
                 <i>(Escreva no input para alterar a div e acrescentar palavras a lista.) </i>
-              </f> 
+              </div> 
               <button className='salvar' onClick={() => salvar()}>Salvar input</button>
           </div>
 {/* ----------------------------------------------------------------------------- */}
           <div className='container'>
             <div className='divalterada' style={{backgroundColor: cor}}>
-              <ee> {texto} </ee>  
+              <div className='ee' > {texto} </div>  
             </div>
             <div className='divmap'>
               Palavras Digitadas:

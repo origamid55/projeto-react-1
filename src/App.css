@@ -86,7 +86,7 @@ display: inline-block;
   margin-left: 40px;
  }
  
- ee {
+.ee {
   margin-left: 40px;
  }
 
@@ -112,7 +112,7 @@ display: inline-block;
   
  }
 
- f {
+ .f {
   font-size: 18px;
   margin-top: 20px;
   display: inline;
